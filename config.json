@@ -1,0 +1,19 @@
+{
+  "language": "en",
+  "currency": "EUR",
+  "charsPerToken": 4,
+  "inputMultiplier": 5.0,
+  "enabledProviders": [
+    "copilot-cli",
+    "copilot-vscode",
+    "cursor",
+    "claude",
+    "codex",
+    "gemini"
+  ],
+  "fxRates": {
+    "USD": 1.0,
+    "EUR": 0.92,
+    "GBP": 0.79
+  }
+}

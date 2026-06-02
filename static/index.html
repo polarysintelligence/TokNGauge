@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es" data-ui-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TokNGauge — Cost Estimation</title>
+  <!-- Multi-resolution favicons for browser tabs + OS taskbars -->
+  <link rel="icon" type="image/svg+xml" href="/static/icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/icons/icon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/icons/icon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/icon-256.png">
+  <link rel="mask-icon" href="/static/icons/icon.svg" color="#22d3ee">
+  <link rel="shortcut icon" href="/static/icons/icon.ico">
+  <meta name="theme-color" content="#0b1024">
+  <meta name="msapplication-TileColor" content="#0b1024">
+  <meta name="msapplication-TileImage" content="/static/icons/icon-256.png">
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="tng-app">
+    <header class="tng-header">
+      <div class="tng-header-left">
+        <img src="/static/icons/icon.svg" alt="" class="tng-logo" width="32" height="32">
+        <h1 class="tng-title" data-i18n="app.name">TokNGauge</h1>
+        <span class="tng-subtitle" data-i18n="app.subtitle"></span>
+      </div>
+      <div class="tng-header-right">
+        <span id="cost-badge" class="cost-badge" data-i18n="loading"></span>
+        <button class="tng-icon-btn" id="tng-settings-btn" title="Settings" aria-label="Settings">⚙️</button>
+        <button class="tng-icon-btn" onclick="toggleTheme()" title="Theme" aria-label="Theme">🌓</button>
+      </div>
+    </header>
+    <main class="tng-main">
+      <div id="cost-panel-body" class="cost-panel-inline">
+        <div class="cost-loading" data-i18n="loading"></div>
+      </div>
+    </main>
+    <footer class="tng-footer">
+      <a href="https://github.com/tokngauge/tokngauge" target="_blank" rel="noopener">GitHub</a>
+      · MIT License © Polarys Intelligence
+      · <span id="tng-version">v1.2.0</span>
+    </footer>
+  </div>
+  <script src="/static/i18n.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

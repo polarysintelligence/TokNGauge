@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=TokNGauge
+GenericName=AI Coding Cost Monitor
+Comment=Local-first cost dashboard for your AI coding assistants
+Exec=xdg-open http://localhost:8770
+Icon=tokngauge
+Categories=Development;Utility;Monitor;
+StartupNotify=true
+Keywords=AI;tokens;cost;copilot;claude;codex;gemini;
